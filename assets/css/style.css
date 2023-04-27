@@ -281,6 +281,39 @@ footer .copyright {
 /* Media Screan */
 
 /* desktops */
+
+@media screen and (min-width: 1100px) {
+
+  #section1,
+  #section2 {
+    padding-top: 50px;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    height: 50rem;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .button:hover {
+    color: #ffff;
+    background-color: #9201ec;
+  }
+
+  .box-info {
+    padding-left: 15px;
+  }
+
+  .area-info img {
+    margin-top: 5rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   #section2 {
     padding-top: 50px;
@@ -549,37 +582,5 @@ footer .copyright {
 
   .product img {
     width: 15rem;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-
-  #section1,
-  #section2 {
-    padding-top: 50px;
-    padding: 30px 90px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  body {
-    height: 50rem;
-  }
-
-  .header {
-    margin-bottom: 40px;
-  }
-
-  .button:hover {
-    color: #ffff;
-    background-color: #9201ec;
-  }
-
-  .box-info {
-    padding-left: 15px;
-  }
-
-  .area-info img {
-    margin-top: 5rem;
   }
 }
